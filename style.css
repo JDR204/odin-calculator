@@ -1,0 +1,50 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: darkgray;
+}
+
+.container {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+#displayContainer {
+    background-color: aquamarine;
+    display: flex;
+    flex: auto;
+
+}
+
+#display {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsContainer {
+    display: flex;
+    background-color: gray;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
